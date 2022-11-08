@@ -40,7 +40,7 @@
 			2
 		],
 		"linebreak-style": [
-			"error"
+			"error", "always"
 		],
 		"quotes": [
 			"error",

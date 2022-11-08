@@ -1,4 +1,3 @@
-import { isLabelWithInternallyDisabledControl } from '@testing-library/user-event/dist/utils';
 import React, {useRef} from 'react';
 import './BookForm.css'
 
@@ -8,7 +7,6 @@ const BookForm = () => {
   const enteredAuthorName = useRef();
   const enteredPublishDate = useRef();
   const enteredPrice = useRef();
-
 
   const ToStoreBookData = () =>{
     const BookData = {
@@ -24,8 +22,6 @@ const BookForm = () => {
     enteredAuthorName.current.value = '';
     enteredPublishDate.current.value = '';
     enteredPrice.current.value = '';
-    console.log(BookData);  
-
     let bookData;
     if (localStorage.getItem("bookData") ){
       bookData = JSON.parse(localStorage.getItem("bookData") || '[]')
@@ -35,7 +31,6 @@ const BookForm = () => {
     }
     bookData.push(BookData);
     localStorage.setItem("bookData", JSON.stringify(bookData));
-
   }
   return (
     <div className='bookForm'>
