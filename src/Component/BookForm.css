@@ -1,0 +1,19 @@
+.bookForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.lbl{
+    font-size:18px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.InputField{
+    width: 45%;
+    height: 20px;
+    font-size: 18px;
+}
+.labelInput{
+    margin:5px;
+}
