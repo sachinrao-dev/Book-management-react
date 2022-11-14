@@ -1,19 +1,18 @@
-/* .bookForm{
+.form{
+    background-color: #cbd0cc;
+    width: 50%;
+}
+.label{
+    margin-right: 30px;
+}
+.labelInput{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+button{
+ margin: 0 auto;
+}
+.bookFormList{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    /* flex-direction: column;   */
-/* }
-.lbl{
-    font-size:18px;
-    font-weight: bold;
-    margin-right: 20px;
-} */
-/* .InputField{
-    width: 45%;
-    height: 20px;
-    font-size: 18px;
-} */
-/* .labelInput{
-    margin:5px;
-} */ 
+    flex-direction: row;
+}

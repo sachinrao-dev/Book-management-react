@@ -47,34 +47,38 @@ function BookForm() {
 
   return (
     <Fragment>
+      <div className='bookFormList'>
+        <div className='form'>
       <form onSubmit={toStoreBookData}>
-        <div>
-          <label>Book Name : </label>
+
+        <div className='labelInput'>
+          <label className='label'>Book Name : </label>
         <input type='text' ref={enteredBookName}/>
       </div>
 
-      <div>
-        <label>Book Detail : </label>
+      <div className='labelInput'>
+        <label className='label'>Book Detail : </label>
         <input type='text' ref={enteredBookDetail}/>
       </div>
       
-      <div>
-        <label>Author Name : </label>
+      <div className='labelInput'>
+        <label className='label'>Author Name : </label>
         <input type='text' ref={enteredAuthorName}/>
       </div>
       
-      <div>
-        <label>Publish Date : </label>
+      <div className='labelInput'>
+        <label className='label'>Publish Date : </label>
         <input type='date' ref={enteredPublishDate}/>
       </div>
       
-      <div>
-        <label>Price : </label>
+      <div className='labelInput'>
+        <label className='label'>Price : </label>
         <input type='number' ref={enteredPrice}/>
       </div>
-      <button type='submit'>Add Book</button>
+      <button type='submit' className='button'>Add Book</button>
     </form> 
-    <div>
+    </div>
+    <div className='table'>
       <table>
         <thead>
           <tr>
@@ -91,7 +95,7 @@ function BookForm() {
         </tbody>
       </table>
     </div>
-    
+    </div>
     </Fragment>
   );
 }
