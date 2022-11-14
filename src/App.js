@@ -11,13 +11,6 @@ function App() {
         <Header />
         <BookForm />
         </div>
-        
-        <div className='bookList'>
-        <BookList/>
-
-        </div>
-      
-       
     </div>
   );
 }
