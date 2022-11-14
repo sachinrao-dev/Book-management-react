@@ -16,3 +16,11 @@ button{
     display: flex;
     flex-direction: row;
 }
+table{
+    border: 1px solid;
+    padding:5px;
+  }
+ th{
+    border: 1px solid;
+    margin-right: 10px; 
+  }
