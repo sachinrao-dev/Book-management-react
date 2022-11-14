@@ -12,7 +12,7 @@ function App() {
         <BookForm />
         </div>
         
-        <div>
+        <div className='bookList'>
         <BookList/>
 
         </div>
