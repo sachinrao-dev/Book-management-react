@@ -1,26 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    text-align: center;
+}
 .form{
     background-color: #cbd0cc;
     width: 50%;
 }
 .label{
     margin-right: 30px;
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+}
+input{
+    width: 150px;
+    height: 25px;
 }
 .labelInput{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-button{
- margin: 0 auto;
-}
 .bookFormList{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
-table{
-    border: 1px solid;
+ table{
+    border-collapse: collapse;
+    width: 50%;
+    margin: 5px;
     padding:5px;
   }
- th{
-    border: 1px solid;
-    margin-right: 10px; 
+  #table,#table tr {
+    border-top: 1px solid;
+    
+  }
+  #table{
+    border-spacing: 0;
+    width: 50%;
+  }
+  #table td,#table th{
+    padding: 0.6em;
+    text-align: center;
+  }
+  th{
+    border-collapse: collapse;
+    font-size: 15px;
+    font-variant: normal;
+    color: black;
+    background-color: #34d5eb;
+
+  }
+  td{
+    border-collapse: collapse;
+    text-align: center;
+    background-color: #cbd0cc;
   }

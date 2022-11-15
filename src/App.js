@@ -1,15 +1,12 @@
-import BookForm from './Component/BookForm'
-import Header from './Component/Header';
 import React from 'react';
+import BookForm from './Component/BookForm';
+// import BookList from './Component/BookList';
 
 function App() {
   return (
-        <div className='headerForm'>
-          <div className='header'>
-        <Header />
-        </div>
-        <BookForm />
-        </div>
+    <div className="headerForm">
+      <BookForm />
+    </div>
   );
 }
 

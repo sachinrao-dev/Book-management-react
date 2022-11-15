@@ -1,6 +1,7 @@
 .header{
-    border: 1px solid;
-    text-align: center;
+    border: none;
+    padding-top: 2px;
+    padding-bottom: 2px;
     background: #34d5eb;
-    width: 50%
 }
+.header h1{ text-align: center;}
