@@ -32,7 +32,7 @@ input{
  table{
     border-collapse: collapse;
     /* width: 50%; */
-    margin: 5px;
+    /* margin: 5px; */
   
   }
   #table,#table tr {
@@ -52,7 +52,9 @@ input{
     font-size: 15px;
     font-variant: normal;
     color: black;
-    background-color: #34d5eb;
+    /* background-color: #34d5eb; */
+    background-color: #cbd0cc;
+
 
   }
   td{

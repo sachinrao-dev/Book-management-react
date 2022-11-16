@@ -1,9 +1,9 @@
 table {
 
     border: 1px solid;
-    margin: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
+    /* margin: 5px; */
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
 }
 .tableHeading {
     border: 1px solid;
@@ -11,4 +11,13 @@ table {
 }
 #btn{
     background-color: red;
+}
+.bookList{
+    border: none;
+    /* padding-top: 2px; */
+    padding-bottom: 2px;
+    background: #34d5eb;
+}
+h1{
+    font-size: 10px;
 }

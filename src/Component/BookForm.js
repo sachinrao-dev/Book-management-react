@@ -80,7 +80,7 @@ function BookForm() {
             <label className="label">Price : </label>
             <input type="number" ref={enteredPrice} required />
           </div>
-          <button type="submit" className="button">
+          <button type="submit" className="addButton">
             Add Book
           </button>
         </form>

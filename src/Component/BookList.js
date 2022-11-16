@@ -1,19 +1,31 @@
 /* eslint-disable react/prop-types */
+/**
+ * /* eslint-disable react/prop-types
+ *
+ * @format
+ */
+
 /** @format */
 
 import React from 'react';
+import './BookList.css';
 
 function BookList(props) {
-  // // const { } = props;
-  // const [books, setBooks] = useState([]);
+  // const { } = props;
+  // const [books, setBooks] = useState("sachin");
   // useEffect(() => {
   //   const bookInfo = JSON.parse(localStorage.getItem('bookData'));
-  //   setBooks(bookInfo);
-  // }, []);
-  // eslint-disable-next-line no-unused-vars
+  //   // setBooks(bookInfo);
+
+  //   console.log(bookInfo, "Books");
+  // }, [books]);
+  // eslint-disable-next-line no-unused-vars, react/prop-types
   const { books, deleteBook } = props;
   return (
     <div className="table">
+      <div className="bookList">
+        <h2>Book list</h2>
+      </div>
       <table id="table">
         <thead>
           <tr>
@@ -26,7 +38,7 @@ function BookList(props) {
           </tr>
         </thead>
         <tbody>
-          {books?.map((book) => (
+          {books.map((book) => (
             <tr key={book?.id}>
               <td>{book?.bookName}</td>
               <td>{book?.authorName}</td>
