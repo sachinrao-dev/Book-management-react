@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /** @format */
 
 import React, { useRef, useState } from 'react';
@@ -29,6 +30,7 @@ function BookForm() {
       publishData: enteredPublishDate.current.value,
       price: enteredPrice.current.value,
     };
+
     setBooks([...books, bookInfo]);
     enteredBookName.current.value = '';
     enteredBookDetail.current.value = '';
@@ -51,29 +53,32 @@ function BookForm() {
         <Header />
 
         <form onSubmit={toStoreBookData}>
+          {/* <label>Book Name conn't be empty</label> */}
           <div className="labelInput">
             <label className="label">Book Name : </label>
-            <input type="text" ref={enteredBookName} />
+            <input type="text" ref={enteredBookName} required />
           </div>
 
           <div className="labelInput">
             <label className="label">Book Detail : </label>
-            <input type="text" ref={enteredBookDetail} />
+            <input type="text" ref={enteredBookDetail} required />
           </div>
 
+          {/* <label>Author Name conn't be empty</label> */}
           <div className="labelInput">
             <label className="label">Author Name : </label>
-            <input type="text" ref={enteredAuthorName} />
+            <input type="text" ref={enteredAuthorName} required />
           </div>
 
+          {/* <label>Publish date con't be empty</label> */}
           <div className="labelInput">
             <label className="label">Publish Date : </label>
-            <input type="date" ref={enteredPublishDate} />
+            <input type="date" ref={enteredPublishDate} required />
           </div>
 
           <div className="labelInput">
             <label className="label">Price : </label>
-            <input type="number" ref={enteredPrice} />
+            <input type="number" ref={enteredPrice} required />
           </div>
           <button type="submit" className="button">
             Add Book

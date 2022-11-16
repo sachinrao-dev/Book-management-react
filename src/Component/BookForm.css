@@ -4,6 +4,8 @@
 }
 .container{
     text-align: center;
+    display: flex;
+    flex-direction: row;
 }
 .form{
     background-color: #cbd0cc;
@@ -29,9 +31,9 @@ input{
 }
  table{
     border-collapse: collapse;
-    width: 50%;
+    /* width: 50%; */
     margin: 5px;
-    padding:5px;
+  
   }
   #table,#table tr {
     border-top: 1px solid;
@@ -39,7 +41,7 @@ input{
   }
   #table{
     border-spacing: 0;
-    width: 50%;
+    /* width: 50%; */
   }
   #table td,#table th{
     padding: 0.6em;

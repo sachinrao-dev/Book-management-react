@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 /** @format */
 
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
 function BookList(props) {
   // // const { } = props;
@@ -50,15 +50,6 @@ function BookList(props) {
       </table>
     </div>
   );
-
-  //   books?.map((book) => (
-  //     <tr key={book?.id}>
-  //       <td>{book?.bookName}</td>
-  //       <td>{book?.authorName}</td>
-  //       <td>{book?.bookDetail}</td>
-  //       <td>{book?.publishData}</td>
-  //       <td>{book?.price}</td>
-  //       {/* <td><button onClick={() => { deleteBook(book.id); }} type="button" style={{ color: 'red' }} >Delete</button></td> */}
 }
 
 export default BookList;
