@@ -27,7 +27,19 @@ function BookList(props) {
         <h2>Book list</h2>
       </div>
       <table id="table">
-        <thead>
+        {books.length > 0 && (
+          <thead>
+            <tr>
+              <th>Book Name</th>
+              <th>Book Detail</th>
+              <th>Author Name</th>
+              <th>Publish Date</th>
+              <th>Price</th>
+              <th>Delete</th>
+            </tr>
+          </thead>
+        )}
+        {/* <thead>
           <tr>
             <th>Book Name</th>
             <th>Book Detail</th>
@@ -36,7 +48,7 @@ function BookList(props) {
             <th>Price</th>
             <th>Delete</th>
           </tr>
-        </thead>
+        </thead> */}
         <tbody>
           {books.map((book) => (
             <tr key={book?.id}>

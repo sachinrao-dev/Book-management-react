@@ -6,6 +6,7 @@
     text-align: center;
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
 .form{
     background-color: #cbd0cc;
@@ -61,4 +62,12 @@ input{
     border-collapse: collapse;
     text-align: center;
     background-color: #cbd0cc;
+  }
+  .addButton{
+    border: none;
+    background: #3498eb;
+    margin-bottom: 5px;
+    color: white;
+    padding: 1px 2px 1px 2px;
+    border-radius: 2px;
   }

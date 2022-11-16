@@ -1,6 +1,7 @@
 table {
 
     border: 1px solid;
+    margin-left: 10px;
     /* margin: 5px; */
     /* margin-left: 10px; */
     /* margin-right: 10px; */
@@ -16,8 +17,16 @@ table {
     border: none;
     /* padding-top: 2px; */
     padding-bottom: 2px;
-    background: #34d5eb;
+    background: #3498eb;
+    margin-left: 10px;
 }
 h1{
     font-size: 10px;
 }
+.table{
+   width: 50%; 
+}
+.table #table{
+    width: 100%; 
+ }
+ 
