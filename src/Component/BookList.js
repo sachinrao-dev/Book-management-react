@@ -37,9 +37,9 @@ function BookList(props) {
                     deleteBook(book.id);
                   }}
                   type="button"
-                  style={{ color: 'red' }}
+                  // style={{ color: 'red' }}
                 >
-                  Delete
+                  <i className="fa-sharp fa-solid fa-trash" />
                 </button>
               </td>
             </tr>
