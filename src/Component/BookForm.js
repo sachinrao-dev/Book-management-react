@@ -1,5 +1,6 @@
+/* eslint-disable jsx-a11y/label-has-associated-control */
+/* eslint-disable jsx-a11y/label-has-for */
 /* eslint-disable react/no-unescaped-entities */
-/** @format */
 
 import React, { useRef, useState } from 'react';
 import './BookForm.css';
@@ -37,6 +38,7 @@ function BookForm() {
     enteredAuthorName.current.value = '';
     enteredPublishDate.current.value = '';
     enteredPrice.current.value = '';
+
     let bookData;
     if (localStorage.getItem('bookData')) {
       bookData = JSON.parse(localStorage.getItem('bookData') || '[]');
@@ -53,7 +55,6 @@ function BookForm() {
         <Header />
 
         <form onSubmit={toStoreBookData}>
-          {/* <label>Book Name conn't be empty</label> */}
           <div className="labelInput">
             <label className="label">Book Name : </label>
             <input type="text" ref={enteredBookName} required />
@@ -64,13 +65,11 @@ function BookForm() {
             <input type="text" ref={enteredBookDetail} required />
           </div>
 
-          {/* <label>Author Name conn't be empty</label> */}
           <div className="labelInput">
             <label className="label">Author Name : </label>
             <input type="text" ref={enteredAuthorName} required />
           </div>
 
-          {/* <label>Publish date con't be empty</label> */}
           <div className="labelInput">
             <label className="label">Publish Date : </label>
             <input type="date" ref={enteredPublishDate} required />
