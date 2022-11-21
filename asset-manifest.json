@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.0f4ce6ea.css",
-    "main.js": "/static/js/main.061fbbe2.js",
-    "static/js/787.7bc7cf79.chunk.js": "/static/js/787.7bc7cf79.chunk.js",
-    "index.html": "/index.html",
-    "main.0f4ce6ea.css.map": "/static/css/main.0f4ce6ea.css.map",
-    "main.061fbbe2.js.map": "/static/js/main.061fbbe2.js.map",
-    "787.7bc7cf79.chunk.js.map": "/static/js/787.7bc7cf79.chunk.js.map"
+    "main.css": "/Book-management-react/static/css/main.0f4ce6ea.css",
+    "main.js": "/Book-management-react/static/js/main.dbe9b5c9.js",
+    "static/js/787.7bc7cf79.chunk.js": "/Book-management-react/static/js/787.7bc7cf79.chunk.js",
+    "index.html": "/Book-management-react/index.html",
+    "main.0f4ce6ea.css.map": "/Book-management-react/static/css/main.0f4ce6ea.css.map",
+    "main.dbe9b5c9.js.map": "/Book-management-react/static/js/main.dbe9b5c9.js.map",
+    "787.7bc7cf79.chunk.js.map": "/Book-management-react/static/js/787.7bc7cf79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0f4ce6ea.css",
-    "static/js/main.061fbbe2.js"
+    "static/js/main.dbe9b5c9.js"
   ]
 }
